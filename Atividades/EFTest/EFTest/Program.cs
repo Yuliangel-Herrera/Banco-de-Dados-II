@@ -1,4 +1,5 @@
 using EFTest.Data;
+using EFTest.Repository;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -12,6 +13,10 @@ builder.Services.AddDbContext<SchoolContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IStudentCoursesRepository, StudentCourseRepository>();
 
 var app = builder.Build();
 

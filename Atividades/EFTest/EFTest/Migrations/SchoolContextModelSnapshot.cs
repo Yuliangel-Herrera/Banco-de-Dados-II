@@ -68,6 +68,12 @@ namespace EFTest.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("CancelDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("SignDate")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("StudentId", "CourseId");
 
                     b.HasIndex("CourseId");
