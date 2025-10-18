@@ -77,6 +77,22 @@ namespace EFAereoNuvem.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Scale",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Arrival = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Departure = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    RealArrival = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    RealDeparture = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Scale", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Airports",
                 columns: table => new
                 {
@@ -112,6 +128,7 @@ namespace EFAereoNuvem.Migrations
                     Departure = table.Column<DateTime>(type: "datetime", nullable: false),
                     RealArrival = table.Column<DateTime>(type: "datetime", nullable: false),
                     RealDeparture = table.Column<DateTime>(type: "datetime", nullable: false),
+                    ExistScale = table.Column<bool>(type: "bit", nullable: false),
                     Duration = table.Column<double>(type: "float", nullable: false),
                     AirplaneId = table.Column<int>(type: "int", nullable: false)
                 },
@@ -161,29 +178,6 @@ namespace EFAereoNuvem.Migrations
                         column: x => x.ClientStatusId,
                         principalTable: "ClientStatus",
                         principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Scale",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Arrival = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Departure = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    RealArrival = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    RealDeparture = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    AirportId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Scale", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Scale_Airports_AirportId",
-                        column: x => x.AirportId,
-                        principalTable: "Airports",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -268,16 +262,14 @@ namespace EFAereoNuvem.Migrations
                 name: "IX_Reservations_FlightId",
                 table: "Reservations",
                 column: "FlightId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Scale_AirportId",
-                table: "Scale",
-                column: "AirportId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Airports");
+
             migrationBuilder.DropTable(
                 name: "Reservations");
 
@@ -294,16 +286,13 @@ namespace EFAereoNuvem.Migrations
                 name: "Flights");
 
             migrationBuilder.DropTable(
-                name: "Airports");
+                name: "Adresses");
 
             migrationBuilder.DropTable(
                 name: "ClientStatus");
 
             migrationBuilder.DropTable(
                 name: "Airplanes");
-
-            migrationBuilder.DropTable(
-                name: "Adresses");
         }
     }
 }

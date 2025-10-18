@@ -20,9 +20,7 @@ namespace EFAereoNuvem.Models
 
         [Required]
         public DateTime RealDeparture { get; set; }
-
-        public int AirportId { get; set; }
-        public Airport Airport { get; set; } = null!;
-
+        public int FlightId { get; set; }
+        public Flight Flight { get; set; } = null!;
     }
 }

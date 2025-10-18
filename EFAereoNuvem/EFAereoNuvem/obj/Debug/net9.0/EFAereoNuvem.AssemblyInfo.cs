@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFAereoNuvem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a29c14ef64198cf0b1c4c5689ab0fb87cb22954")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+831a751ef7cc7bcd145ac9aeaf4c9d1c28a5056a")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFAereoNuvem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFAereoNuvem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

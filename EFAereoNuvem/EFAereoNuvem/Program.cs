@@ -14,6 +14,8 @@ builder.Services.AddDbContext<AppDBContext>(options =>
     )
 );
 builder.Services.AddScoped<IFlightRepository, FlightRepository>();
+//builder.Services.AddScoped<IClientRepository, ClientRepository>();
+
 
 var app = builder.Build();
 

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFAereoNuvem.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20251012143252_v1")]
-    partial class v1
+    [Migration("20251018004140_RelacionamentoEscalaVoo")]
+    partial class RelacionamentoEscalaVoo
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -268,6 +268,9 @@ namespace EFAereoNuvem.Migrations
                     b.Property<double>("Duration")
                         .HasColumnType("float");
 
+                    b.Property<bool>("ExistScale")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Origin")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -340,14 +343,14 @@ namespace EFAereoNuvem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AirportId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Arrival")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("Departure")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("FlightId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("RealArrival")
                         .HasColumnType("datetime2");
@@ -357,7 +360,7 @@ namespace EFAereoNuvem.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AirportId");
+                    b.HasIndex("FlightId");
 
                     b.ToTable("Scale");
                 });
@@ -437,13 +440,13 @@ namespace EFAereoNuvem.Migrations
 
             modelBuilder.Entity("EFAereoNuvem.Models.Scale", b =>
                 {
-                    b.HasOne("EFAereoNuvem.Models.Airport", "Airport")
-                        .WithMany()
-                        .HasForeignKey("AirportId")
+                    b.HasOne("EFAereoNuvem.Models.Flight", "Flight")
+                        .WithMany("Scales")
+                        .HasForeignKey("FlightId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Airport");
+                    b.Navigation("Flight");
                 });
 
             modelBuilder.Entity("EFAereoNuvem.Models.Airplane", b =>
@@ -464,6 +467,8 @@ namespace EFAereoNuvem.Migrations
             modelBuilder.Entity("EFAereoNuvem.Models.Flight", b =>
                 {
                     b.Navigation("Reservations");
+
+                    b.Navigation("Scales");
                 });
 #pragma warning restore 612, 618
         }

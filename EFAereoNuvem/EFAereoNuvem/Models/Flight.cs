@@ -14,8 +14,10 @@ namespace EFAereoNuvem.Models
         public DateTime Departure { get; set; }
         public DateTime RealArrival { get; set; }
         public DateTime RealDeparture { get; set; }
+        public bool ExistScale { get; set; }
         public float Duration { get; set; }
         public List<Reservation> Reservations { get; set; } = [];
+        public List<Scale> Scales { get; set; } = [];
         public int AirplaneId { get; set; }
         public Airplane Airplane { get; set; } = null!;
     }

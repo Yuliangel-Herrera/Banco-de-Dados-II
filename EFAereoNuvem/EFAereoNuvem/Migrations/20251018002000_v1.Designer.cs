@@ -4,6 +4,7 @@ using EFAereoNuvem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFAereoNuvem.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20251018002000_v1")]
+    partial class v1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -346,9 +349,6 @@ namespace EFAereoNuvem.Migrations
                     b.Property<DateTime>("Departure")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FlightId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("RealArrival")
                         .HasColumnType("datetime2");
 
@@ -356,8 +356,6 @@ namespace EFAereoNuvem.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("FlightId");
 
                     b.ToTable("Scale");
                 });
@@ -435,17 +433,6 @@ namespace EFAereoNuvem.Migrations
                     b.Navigation("Flight");
                 });
 
-            modelBuilder.Entity("EFAereoNuvem.Models.Scale", b =>
-                {
-                    b.HasOne("EFAereoNuvem.Models.Flight", "Flight")
-                        .WithMany("Scales")
-                        .HasForeignKey("FlightId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Flight");
-                });
-
             modelBuilder.Entity("EFAereoNuvem.Models.Airplane", b =>
                 {
                     b.Navigation("Flights");
@@ -464,8 +451,6 @@ namespace EFAereoNuvem.Migrations
             modelBuilder.Entity("EFAereoNuvem.Models.Flight", b =>
                 {
                     b.Navigation("Reservations");
-
-                    b.Navigation("Scales");
                 });
 #pragma warning restore 612, 618
         }

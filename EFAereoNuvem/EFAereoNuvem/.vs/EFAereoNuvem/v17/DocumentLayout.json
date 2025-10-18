@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\repository\\interface\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:repository\\interface\\iflightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\data\\mapping\\flightmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:data\\mapping\\flightmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\repository\\flightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:repository\\flightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\models\\scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:models\\scale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\data\\mapping\\reservationmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:data\\mapping\\reservationmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\efaereonuvem\\efaereonuvem\\models\\armchair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972CA623-5BA6-AD27-5F87-4A908AEC7EDC}|EFAereoNuvem.csproj|solutionrelative:models\\armchair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-17T23:58:32.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T23:47:56.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlightMap.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Data\\Mapping\\FlightMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\FlightMap.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Data\\Mapping\\FlightMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\FlightMap.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwEsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T23:45:09.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Flight.cs",
+              "RelativeToolTip": "Models\\Flight.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T23:45:00.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationMap.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Data\\Mapping\\ReservationMap.cs",
+              "RelativeDocumentMoniker": "Data\\Mapping\\ReservationMap.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Data\\Mapping\\ReservationMap.cs",
+              "RelativeToolTip": "Data\\Mapping\\ReservationMap.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T23:27:11.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Scale.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Scale.cs",
+              "RelativeDocumentMoniker": "Models\\Scale.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Scale.cs",
+              "RelativeToolTip": "Models\\Scale.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T23:25:16.204Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IFlightRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Repository\\Interface\\IFlightRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interface\\IFlightRepository.cs",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Repository\\Interface\\IFlightRepository.cs",
-              "RelativeToolTip": "Repository\\Interface\\IFlightRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Armchair.cs",
+              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Armchair.cs",
+              "RelativeDocumentMoniker": "Models\\Armchair.cs",
+              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Models\\Armchair.cs",
+              "RelativeToolTip": "Models\\Armchair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T22:39:17.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlightRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Repository\\FlightRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\FlightRepository.cs",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Repository\\FlightRepository.cs",
-              "RelativeToolTip": "Repository\\FlightRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAuwBYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T23:49:12.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FlightController.cs",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Controllers\\FlightController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FlightController.cs",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\EFAereoNuvem\\EFAereoNuvem\\Controllers\\FlightController.cs",
-              "RelativeToolTip": "Controllers\\FlightController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwEkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T23:17:08.434Z",
+              "WhenOpened": "2025-10-17T23:23:20.911Z",
               "EditorCaption": ""
             }
           ]

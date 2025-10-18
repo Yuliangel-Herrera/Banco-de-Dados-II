@@ -9,18 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\atividades\\eftest\\eftest\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|solutionrelative:eftest\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\atividades\\eftest\\eftest\\repository\\studentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|solutionrelative:eftest\\repository\\studentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\atividades\\eftest\\eftest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|solutionrelative:eftest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|c:\\users\\yuli\\desktop\\unoesc\\fase-4\\bd ii\\atividades\\eftest\\eftest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79FA97D2-2648-4DA2-ADB1-1104032620DD}|EFTest\\EFTest.csproj|solutionrelative:eftest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +32,7 @@
               "RelativeDocumentMoniker": "EFTest\\Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Controllers\\CourseController.cs",
               "RelativeToolTip": "EFTest\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T23:52:40.843Z",
               "EditorCaption": ""
@@ -57,47 +45,9 @@
               "RelativeDocumentMoniker": "EFTest\\Repository\\CourseRepository.cs",
               "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Repository\\CourseRepository.cs",
               "RelativeToolTip": "EFTest\\Repository\\CourseRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAIwBMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T23:52:18.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\appsettings.json",
-              "RelativeDocumentMoniker": "EFTest\\appsettings.json",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\appsettings.json",
-              "RelativeToolTip": "EFTest\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-03T23:16:54.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EFTest\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EFTest\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAB2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-20T19:48:27.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentCourseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Repository\\StudentCourseRepository.cs",
-              "RelativeDocumentMoniker": "EFTest\\Repository\\StudentCourseRepository.cs",
-              "ToolTip": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFTest\\EFTest\\Repository\\StudentCourseRepository.cs",
-              "RelativeToolTip": "EFTest\\Repository\\StudentCourseRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-20T00:35:28.169Z",
               "EditorCaption": ""
             }
           ]

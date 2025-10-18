@@ -56,6 +56,10 @@ public class FlightMap : IEntityTypeConfiguration<Flight>
             .HasColumnType("datetime")
             .IsRequired();
 
+        builder.Property(f => f.ExistScale)
+            .HasColumnType("bit")
+            .IsRequired();
+
         // Duração do voo
         builder.Property(f => f.Duration)
             .HasColumnType("float")
@@ -65,6 +69,12 @@ public class FlightMap : IEntityTypeConfiguration<Flight>
         builder.HasMany(f => f.Reservations)
             .WithOne(r => r.Flight)
             .HasForeignKey(r => r.FlightId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        // Relacionamento 1:N com Scale
+        builder.HasMany(f => f.Scales)
+            .WithOne(s => s.Flight)
+            .HasForeignKey(s => s.FlightId)
             .OnDelete(DeleteBehavior.Cascade);
 
         // Relacionamento N:1 com Airplane

@@ -4,6 +4,7 @@ using EFAereoNuvem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFAereoNuvem.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    partial class AppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20251018003208_ListaDeScalesNoFlight")]
+    partial class ListaDeScalesNoFlight
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -346,7 +349,7 @@ namespace EFAereoNuvem.Migrations
                     b.Property<DateTime>("Departure")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FlightId")
+                    b.Property<int?>("FlightId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("RealArrival")
@@ -437,13 +440,9 @@ namespace EFAereoNuvem.Migrations
 
             modelBuilder.Entity("EFAereoNuvem.Models.Scale", b =>
                 {
-                    b.HasOne("EFAereoNuvem.Models.Flight", "Flight")
+                    b.HasOne("EFAereoNuvem.Models.Flight", null)
                         .WithMany("Scales")
-                        .HasForeignKey("FlightId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Flight");
+                        .HasForeignKey("FlightId");
                 });
 
             modelBuilder.Entity("EFAereoNuvem.Models.Airplane", b =>
