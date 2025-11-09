@@ -63,7 +63,7 @@
                                         }
                                     </td>
                                     <td class="text-center">
-                                        @if (p.Stock.HasValue)
+                                        @if (p.Stock > 0)
                                         {
                                             if (p.Stock <= 5)
                                             {
@@ -156,7 +156,7 @@
                     <div class="card-body">
                         <i class="fas fa-boxes fa-2x text-warning mb-2"></i>
                         <h5>Estoque Total</h5>
-                        <h3 class="text-warning">@(Model.Where(p => p.Stock.HasValue).Sum(p => p.Stock.Value)) un.</h3>
+                        <h3 class="text-warning">@(Model.Where(p => p.Stock > 0).Sum(p => p.Stock)) un.</h3>
                     </div>
                 </div>
             </div>

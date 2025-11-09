@@ -85,18 +85,5 @@ namespace EFFloristry.Repository
                 .OrderBy(p => p.Stock)
                 .ToListAsync();
         }
-
-        public async Task<decimal> GetTotalValue()
-        {
-            return await _context.Products
-                .SumAsync(p => p.Price * (p.Stock ?? 0));
-        }
-
-        public async Task<int> GetTotalStock()
-        {
-            return await _context.Products
-                .Where(p => p.Stock.HasValue)
-                .SumAsync(p => p.Stock!.Value);
-        }
     }
 }

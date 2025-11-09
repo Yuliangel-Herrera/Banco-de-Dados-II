@@ -4713,23 +4713,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ds643\\.nuget\\packages\\": {},
+    "C:\\Users\\Yuli\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ds643\\OneDrive\\Documentos\\faculdade\\bd.II\\Atividades\\EFFloristry\\EFFloristry\\EFFloristry.csproj",
+      "projectUniqueName": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFFloristry\\EFFloristry\\EFFloristry.csproj",
       "projectName": "EFFloristry",
-      "projectPath": "C:\\Users\\ds643\\OneDrive\\Documentos\\faculdade\\bd.II\\Atividades\\EFFloristry\\EFFloristry\\EFFloristry.csproj",
-      "packagesPath": "C:\\Users\\ds643\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ds643\\OneDrive\\Documentos\\faculdade\\bd.II\\Atividades\\EFFloristry\\EFFloristry\\obj\\",
+      "projectPath": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFFloristry\\EFFloristry\\EFFloristry.csproj",
+      "packagesPath": "C:\\Users\\Yuli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yuli\\Desktop\\unoesc\\Fase-4\\BD II\\Atividades\\EFFloristry\\EFFloristry\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ds643\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Yuli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4807,7 +4807,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
